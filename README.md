@@ -25,7 +25,7 @@ A minimal e-commerce web application to list products and manage a shopping cart
 - Real database integration (MongoDB) instead of hardcoded data
 
 ## Usage
-1. Clone the repo: `git clone <repo-url>`
+1. Clone the repo: `git clone https://github.com/Adi7558/shopping_cart`
 2. Install dependencies:
    - Backend: `npm install` in `/backend`
    - Frontend: `npm install` in `/frontend`
