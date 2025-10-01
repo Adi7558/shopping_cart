@@ -1,14 +1,18 @@
 {
   "name": "shopping_cart",
   "version": "1.0.0",
+  "description": "A minimal e-commerce site to list products and manage a shopping cart",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["ecommerce", "shopping-cart", "mern"],
+  "author": "Aditya Kamble",
   "license": "ISC",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adi7558/shopping_cart.git"
+  },
   "dependencies": {
     "bootstrap": "^5.3.8",
     "cors": "^2.8.5",

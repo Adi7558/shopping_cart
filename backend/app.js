@@ -13,9 +13,9 @@ app.use(express.json());
 
 // Connect DB
 main().then(() => {
-    console.log("✅ Connected to DB Successfully");
+    console.log(" Connected to DB Successfully");
 }).catch((err) => {
-    console.log("❌ DB Connection Error:", err);
+    console.log(" DB Connection Error:", err);
 });
 async function main() {
     await mongoose.connect(MONGO_URL);
@@ -24,13 +24,13 @@ async function main() {
 // ---------- Test Route ----------
 app.get("/testingList", async (req, res) => {
     const productListing = new Product({
-        tittle: "Shirt",   // string
+        tittle: "Shirt",
         price: 200,
         imageUrl: "",
     });
 
     await productListing.save();
-    console.log("✅ Sample product was saved");
+    console.log(" Sample product was saved");
     res.send("Successful Testing");
 });
 
@@ -79,5 +79,5 @@ app.get("/", (req, res) => {
 
 // ---------- Start Server ----------
 app.listen(8000, () => {
-    console.log("🚀 Server is running at http://localhost:8000");
+    console.log(" Server is running at http://localhost:8000");
 });
