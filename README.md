@@ -19,6 +19,8 @@ A minimal e-commerce web application to list products and manage a shopping cart
 - **Backend:** Node.js, Express, MongoDB
 - **State Management:** React Context API
 
+Note: Any OOP language is accepted; however, JavaScript/TypeScript is preferred. Some model files are implemented in JS/JSX.
+
 ## Additional Enhancements
 - Full CRUD on cart items (update quantity, remove items)
 - Responsive design with TailwindUI components
